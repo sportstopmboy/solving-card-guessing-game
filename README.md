@@ -70,7 +70,23 @@ P(B, R, S) = \left( \frac{R}{B+R} \times P(B, R-1, S+1) \right) + \left( \frac{B
 
 <img width="1331" height="859" alt="image" src="https://github.com/user-attachments/assets/f36d1d57-a798-41da-81b6-5f4de8a95907" />
 
+<br></br>
+<p>To further visualise this advantage, we can plot the the absolute difference graph. This graph demonstrates the difference between the probability of winning when counting cards and when not counting cards. Here we can see that for a streak of 5 cards, the win percentage goes up nearly 25% simply by counting cards. The absolute difference graph is plotted below.</p>
+
+```math
+Edge(x) = P_{Counting}(x) - P_{NoCounting}(x)
+```
+<p></p>
+
 <img width="1304" height="778" alt="image" src="https://github.com/user-attachments/assets/7728bc42-88b8-420b-87b7-823b73c7e06c" />
+
+<br></br>
+<p>Lastly, there is something that cannot be very easily made out in the previous graphs. That is how much of an advantage counting cards is in the long run. Although it is practically impossle to get to a streak of 52, your chances of doing so are 9 times greater by counting cards. This advantage can be visualised by plotting the relative advantage graph.</p>
+
+```math
+Multiplier(x) = \frac{P_{Counting}(x)}{P_{NoCounting}(x)}
+```
+<p></p>
 
 <img width="1306" height="835" alt="image" src="https://github.com/user-attachments/assets/bcb5ad88-52a0-4411-a966-8beaec40898b" />
 
